@@ -1,5 +1,0 @@
-jmespath==1.0.1
-kubernetes==25.3.0
-openshift==0.13.1
-urllib3==1.26.13
-oauthlib==3.2.2
