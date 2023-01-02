@@ -1,10 +1,8 @@
 - hosts: localhost
   connection: local
-  collections:
-    - kubernetes.core
   tasks:
     - name: List Pods in namespace
-      k8s_info:
+      kubernetes.core.k8s_info:
         kind: Pod
       register: kube_system_pods_list
     - name: Show the list of pods
